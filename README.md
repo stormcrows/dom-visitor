@@ -9,13 +9,13 @@ then I'd recommend using the dom-reducer:
 - https://github.com/stormcrows/dom-reducer
 
 
-  DOMVisitor takes 2 arguments:
+DOMVisitor takes 2 arguments:
 
-    - startingNode
-        ex.: document.body,
+  - startingNode
+      ex.: document.body,
 
-    - fn, a function called on every node,
-        ex.: node => node => (node["onclick"] ? delete node["onclick"] : void 0)
+  - fn, a function called on every node,
+      ex.: node => node => (node["onclick"] ? delete node["onclick"] : void 0)
 
 
 DOMVisitor supports Browser, Node.js & AMD.
