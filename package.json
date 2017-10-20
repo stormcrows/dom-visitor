@@ -1,6 +1,6 @@
 {
   "name": "dom-visitor",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description":
     "Visitor DOM crawler, executing given function recursively beginning with the provided node.",
   "main": "index.js",
@@ -15,7 +15,8 @@
     "tag",
     "html",
     "document",
-    "fakedom"
+    "fakedom",
+    "recursion"
   ],
   "author": "stormcrows",
   "license": "ISC",
