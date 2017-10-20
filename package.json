@@ -1,0 +1,35 @@
+{
+  "name": "dom-visitor",
+  "version": "1.0.0",
+  "description": "Visitor executing provided function over each of DOM nodes.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "DOM",
+    "visitor",
+    "pattern",
+    "crawler",
+    "tag",
+    "html",
+    "document",
+    "fakedom"
+  ],
+  "author": "stormcrows",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stormcrows/dom-visitor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stormcrows/dom-visitor/issues"
+  },
+  "homepage": "https://github.com/stormcrows/dom-visitor#readme",
+  "maintainers": [
+    {
+      "name": "stormcrows",
+      "email": "stormingcrows@gmail.com"
+    }
+  ]
+}
