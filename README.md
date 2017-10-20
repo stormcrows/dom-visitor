@@ -3,9 +3,10 @@
 Visitor designed for DOM crawling and node modification.
 
 If you'd like a sensible way of collecting information about nodes,
-then I'd recommend using dom-reducer:
-https://www.npmjs.com/package/dom-reducer
-https://github.com/stormcrows/dom-reducer
+then I'd recommend using the dom-reducer:
+
+- https://www.npmjs.com/package/dom-reducer
+- https://github.com/stormcrows/dom-reducer
 
 
   DOMVisitor takes 2 arguments:
