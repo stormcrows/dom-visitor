@@ -29,7 +29,7 @@ then:
 
 ```javascript
 const removeAttribute = (attr, node) =>
-  DOMVisitor(node, node => (node[attr] ? delete node[attr] : void 0), 0);
+  DOMVisitor(node, node => (node[attr] ? delete node[attr] : void 0));
 
 removeAttribute("onclick", document.body);
 ```

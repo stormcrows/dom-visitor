@@ -1,6 +1,6 @@
 {
   "name": "dom-visitor",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description":
     "Visitor DOM crawler, executing given function recursively beginning with the provided node.",
   "main": "index.js",
