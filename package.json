@@ -1,7 +1,8 @@
 {
   "name": "dom-visitor",
   "version": "1.0.0",
-  "description": "Visitor executing provided function over each of DOM nodes.",
+  "description":
+    "Visitor DOM crawler, executing given function recursively beginning with the provided node.",
   "main": "index.js",
   "scripts": {
     "test": "jest"
