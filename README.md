@@ -1,5 +1,7 @@
 # dom-visitor
 
+[![CircleCI](https://circleci.com/gh/stormcrows/dom-visitor/tree/master.svg?style=svg)](https://circleci.com/gh/stormcrows/dom-visitor/tree/master)
+
 Visitor designed for DOM crawling and node modification.
 
 If you'd like a sensible way of collecting information about nodes,
