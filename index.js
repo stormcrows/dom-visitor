@@ -51,6 +51,9 @@
       if (!this.head) return undefined;
       var value = this.head.value;
       this.head = this.head.prev;
+      if (!this.head) {
+        this.tail = null;
+      }
       this.len -= 1;
       return value;
     };

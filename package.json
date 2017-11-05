@@ -1,12 +1,14 @@
 {
   "name": "dom-visitor",
-  "version": "1.1.0",
-  "description": "Visitor DOM crawler, supporting breadth-first & in-order traversal.",
+  "version": "1.1.1",
+  "description":
+    "Visitor DOM crawler, supporting breadth-first & in-order traversal.",
   "main": "index.js",
   "scripts": {
     "test": "jest",
     "test:watch": "jest --watch",
-    "ci": "jest --ci --testResultsProcessor='./node_modules/jest-junit-reporter'"
+    "ci":
+      "jest --ci --testResultsProcessor='./node_modules/jest-junit-reporter'"
   },
   "keywords": [
     "DOM",
